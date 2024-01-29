@@ -1,12 +1,10 @@
 {
   "basics": {
     "name": "Andrew Chang",
-    "label": "Scientist",
+    "label": "postdoctoral fellow",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "ac8888 [at] nyu [dot] edu",
+    "summary": "auditory cognitive neuroscientist",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
