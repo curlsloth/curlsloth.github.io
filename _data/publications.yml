@@ -1,11 +1,12 @@
 # =============================================================================
-#  Publications
-#  To add a paper: copy a block, fill it in, keep the list newest-first.
-#  Write your own name exactly as "Chang, A." and it will be bolded on the page.
-#  `doi` is optional; if present it becomes the paper's link.
+#  Publications — one list, newest first.
+#  To add a paper: copy a block, fill it in, and place it in the right spot by
+#  year (newest at the top). Write your own name exactly as "Chang, A." and it
+#  will be bolded on the page. `volume` and `doi` are optional; if a `doi` is
+#  present it becomes the paper's link.
 # =============================================================================
 
-journal:
+publications:
   - title: "Temporally dissociable neural representations of pitch height and chroma"
     authors: "Chang, A.; Poeppel, D.; Teng, X."
     venue: "Journal of Neuroscience"
@@ -13,6 +14,27 @@ journal:
     volume: "45"
     pages: "e1567242024"
     doi: "10.1523/JNEUROSCI.1567-24.2024"
+
+  - title: "Spectrotemporal modulation: Efficient and interpretable feature representation for classifying speech, music, and environmental sounds"
+    authors: "Chang, A.; Li, Y.; Roman, I. R.; Poeppel, D."
+    venue: "Interspeech 2025"
+    year: 2025
+    pages: "216–220"
+    doi: "10.21437/Interspeech.2025-1021"
+
+  - title: "Multimodal fusion with semi-supervised learning minimizes annotation quantity for modeling videoconference conversation experience"
+    authors: "Chang, A.; Hu, C.; Qi, J.; Wei, Z.; Zhang, K.; Akkaraju, V.; Poeppel, D.; Freeman, D."
+    venue: "Interspeech 2025"
+    year: 2025
+    pages: "4313–4317"
+    doi: "10.21437/Interspeech.2025-2451"
+
+  - title: "Multimodal machine learning can predict videoconference fluidity and enjoyment"
+    authors: "Chang, A.; Akkaraju, V.; Cogliano, R. M.; Poeppel, D.; Freeman, D."
+    venue: "ICASSP 2025 (IEEE)"
+    year: 2025
+    pages: "1–5"
+    doi: "10.1109/ICASSP49660.2025.10889480"
 
   - title: "The human auditory system uses amplitude modulation to distinguish music from speech"
     authors: "Chang, A.; Teng, X.; Assaneo, M. F.; Poeppel, D."
@@ -134,6 +156,13 @@ journal:
     pages: "581–604"
     doi: "10.1177/0022022116632910"
 
+  - title: "Multi-domain feature selection in auditory mismatch negativity via PARAFAC-based template matching"
+    authors: "Pouryazdian, S.; Chang, A.; Bosnyak, D. J.; Trainor, L. J.; Beheshti, S.; Krishnan, S."
+    venue: "IEEE EMBC 2016"
+    year: 2016
+    pages: "1603–1607"
+    doi: "10.1109/EMBC.2016.7591019"
+
   - title: "Perigenual anterior cingulate event-related potential precedes stop signal errors"
     authors: "Chang, A.; Chen, C.-C.; Li, H.-H.; Li, C.-S. R."
     venue: "NeuroImage"
@@ -149,32 +178,3 @@ journal:
     volume: "9"
     pages: "e99909"
     doi: "10.1371/journal.pone.0099909"
-
-conference:
-  - title: "Spectrotemporal modulation: Efficient and interpretable feature representation for classifying speech, music, and environmental sounds"
-    authors: "Chang, A.; Li, Y.; Roman, I. R.; Poeppel, D."
-    venue: "Interspeech 2025"
-    year: 2025
-    pages: "216–220"
-    doi: "10.21437/Interspeech.2025-1021"
-
-  - title: "Multimodal machine learning can predict videoconference fluidity and enjoyment"
-    authors: "Chang, A.; Akkaraju, V.; Cogliano, R. M.; Poeppel, D.; Freeman, D."
-    venue: "ICASSP 2025 (IEEE)"
-    year: 2025
-    pages: "1–5"
-    doi: "10.1109/ICASSP49660.2025.10889480"
-
-  - title: "Multimodal fusion with semi-supervised learning minimizes annotation quantity for modeling videoconference conversation experience"
-    authors: "Chang, A.; Hu, C.; Qi, J.; Wei, Z.; Zhang, K.; Akkaraju, V.; Poeppel, D.; Freeman, D."
-    venue: "Interspeech 2025"
-    year: 2025
-    pages: "4313–4317"
-    doi: "10.21437/Interspeech.2025-2451"
-
-  - title: "Multi-domain feature selection in auditory mismatch negativity via PARAFAC-based template matching"
-    authors: "Pouryazdian, S.; Chang, A.; Bosnyak, D. J.; Trainor, L. J.; Beheshti, S.; Krishnan, S."
-    venue: "IEEE EMBC 2016"
-    year: 2016
-    pages: "1603–1607"
-    doi: "10.1109/EMBC.2016.7591019"

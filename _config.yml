@@ -1,9 +1,8 @@
 # --- Site settings ---------------------------------------------------------
 title: Andrew Chang
-tagline: Auditory & Computational Cognitive Neuroscientist
+tagline: research is fun
 description: >-
-  Andrew Chang, PhD — auditory and computational cognitive neuroscientist
-  studying how the brain makes sense of sound, speech, and music.
+  Andrew Chang, PhD.
 url: "https://curlsloth.github.io"
 baseurl: ""
 lang: en
@@ -11,16 +10,16 @@ lang: en
 # --- Personal details (used across the page) -------------------------------
 author:
   name: Andrew Chang
-  email: ac8888@nyu.edu
   photo: /assets/img/andrew-chang.jpg
   orcid: 0000-0001-6745-4435
   scholar: https://scholar.google.com/citations?user=bNmLiosAAAAJ
   github: https://github.com/curlsloth
   linkedin: https://www.linkedin.com/in/andrewchang123/
-  twitter: https://twitter.com/candrew123
   cv: # add a URL to a PDF CV here if you have one
 
 # --- Build settings --------------------------------------------------------
+# Active theme. Swap to /assets/css/style-90s.css for the 1990s look.
+theme_css: /assets/css/style.css
 markdown: kramdown
 permalink: pretty
 exclude:

@@ -10,7 +10,7 @@ Everything you'll normally touch is plain text:
 
 | What you want to change        | File                        |
 | ------------------------------ | --------------------------- |
-| Bio, research interests, news  | `index.md`                  |
+| Bio, research, experiences     | `index.md`                  |
 | Publications                   | `_data/publications.yml`    |
 | Name, links, email, photo      | `_config.yml`               |
 | Colors, fonts, spacing         | `assets/css/style.css`      |
@@ -29,6 +29,15 @@ Open `_data/publications.yml` and copy an existing block into the `journal:` (or
     volume: "12"        # optional
     pages: "1–10"       # optional
     doi: "10.xxxx/xxxxx" # optional; becomes the title link
+```
+
+### Switch site theme
+
+`_config.yml` → `theme_css`:
+
+```yaml
+theme_css: /assets/css/style.css        # current monospace look
+# theme_css: /assets/css/style-90s.css  # 1990s look
 ```
 
 ## Local preview (optional)

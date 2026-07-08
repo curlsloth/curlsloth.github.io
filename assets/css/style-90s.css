@@ -1,0 +1,183 @@
+/* =========================================================================
+   Andrew Chang — personal site · ALTERNATIVE THEME
+   "Minimalist 1990s" — Times New Roman, classic blue/purple links, <hr>
+   rules, a bordered portrait, pipe-separated nav. Drop-in replacement for
+   style.css (same class names). No JavaScript, no external dependencies.
+   ========================================================================= */
+
+:root {
+  --bg:        #ffffff;
+  --ink:       #000000;
+  --muted:     #333333;
+  --link:      #0000ee;   /* classic unvisited blue  */
+  --visited:   #551a8b;   /* classic visited purple  */
+  --rule:      #000000;
+  --measure:   62rem;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Times New Roman", Times, Georgia, serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.wrap {
+  max-width: var(--measure);
+  margin: 0;
+  padding: 2rem 1.5rem 3rem;
+}
+
+/* ---------- Links (classic browser defaults) ---------------------------- */
+a { color: var(--link); text-decoration: underline; }
+a:visited { color: var(--visited); }
+a:hover { color: #ee0000; }
+
+/* ---------- Masthead ----------------------------------------------------- */
+.masthead {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.masthead .id { flex: 1 1 auto; }
+.masthead h1 {
+  margin: 0 0 0.25rem;
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+}
+.masthead .role { margin: 0; font-size: 1.15rem; font-style: italic; }
+.masthead .affil { margin: 0.25rem 0 0; color: var(--muted); font-size: 1rem; }
+.masthead .contact { margin: 0.5rem 0 0; font-size: 1rem; }
+.masthead img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border: 1px solid var(--ink);   /* the obligatory 1px image border */
+  padding: 3px;
+  background: #fff;
+  flex-shrink: 0;
+}
+
+/* ---------- Nav: pipe-separated, under a rule --------------------------- */
+.nav {
+  margin: 0;
+  padding: 0.5rem 0;
+  border-top: 3px double var(--rule);
+  border-bottom: 3px double var(--rule);
+  text-align: left;
+  font-size: 1rem;
+}
+.nav a { text-decoration: none; white-space: nowrap; }
+.nav a:hover { text-decoration: underline; }
+.nav a:not(:last-child)::after {
+  content: " | ";
+  color: var(--ink);
+  text-decoration: none;
+}
+
+/* ---------- Sections ----------------------------------------------------- */
+section { margin: 1.6rem 0; }
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 0.6rem;
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+p { margin: 0 0 0.75rem; }
+section > p:last-child { margin-bottom: 0; }
+
+ul { margin: 0 0 0.75rem; padding-left: 1.5rem; }
+li { margin: 0.2rem 0; }
+
+/* ---------- Experience / CV list ---------------------------------------- */
+.cv { list-style: none; padding: 0; margin: 0; }
+.cv li { display: flex; gap: 1rem; margin: 0.5rem 0; }
+.cv .date {
+  flex-shrink: 0;
+  width: 6rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.cv .sub { color: var(--muted); font-style: italic; }
+
+/* ---------- Publications ------------------------------------------------- */
+.pub-group { margin: 1rem 0 1.3rem; }
+.pub-group h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--ink);
+  margin: 0 0 0.6rem;
+}
+ol.pubs { margin: 0; padding-left: 2rem; }
+ol.pubs li { margin: 0 0 0.6rem; line-height: 1.4; }
+.pub .title { font-weight: 400; }
+.pub .venue { font-style: italic; }
+.pub .me { font-weight: 700; text-decoration: none; }
+
+/* ---------- Blog / thoughts list ---------------------------------------- */
+.postlist { list-style: none; padding: 0; margin: 0; }
+.postlist li { display: flex; gap: 1rem; margin: 0.45rem 0; align-items: baseline; }
+.postlist .date {
+  flex-shrink: 0;
+  width: 6.5rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.95rem;
+}
+
+/* ---------- Blog post ---------------------------------------------------- */
+.post-meta { color: var(--muted); font-style: italic; margin: 0 0 1.5rem; }
+.post-body h2 { border: none; padding: 0; margin-top: 1.6rem; }
+.post-body h3 { margin-top: 1.3rem; }
+.post-body img { max-width: 100%; height: auto; border: 1px solid #999; padding: 2px; }
+.post-body pre {
+  background: #f0f0f0;
+  border: 1px solid #999;
+  padding: 0.8rem 1rem;
+  overflow-x: auto;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.9rem;
+}
+.post-body code { font-family: "Courier New", Courier, monospace; }
+.post-body blockquote {
+  margin: 0 0 0.75rem;
+  padding-left: 1rem;
+  border-left: 4px solid #999;
+  color: var(--muted);
+}
+.backlink { display: inline-block; margin-bottom: 1.25rem; }
+
+/* ---------- Footer ------------------------------------------------------- */
+footer {
+  margin-top: 2.5rem;
+  padding-top: 0.75rem;
+  border-top: 3px double var(--rule);
+  font-size: 0.9rem;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+/* ---------- Responsive --------------------------------------------------- */
+@media (max-width: 34rem) {
+  .wrap { padding: 1.5rem 1.15rem 2.5rem; }
+  .masthead { flex-direction: column-reverse; align-items: flex-start; gap: 0.75rem; }
+  .masthead h1 { font-size: 2rem; }
+  .cv li, .postlist li { flex-direction: column; gap: 0.1rem; }
+  .cv .date, .postlist .date { width: auto; }
+}
