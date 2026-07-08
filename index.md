@@ -6,9 +6,11 @@ title: Andrew Chang
 <section id="about" markdown="1">
 ## About
 
-I am a Senior Quantitative User Experience Researcher at Google and a Research Affiliate at New York University. I completed my PhD in Psychology, Neuroscience & Behaviour at McMaster University with Laurel Trainor, and my postdoctoral training at New York University with David Poeppel.
+I am a Senior Quantitative User Experience Researcher at Google. I completed my PhD in Psychology, Neuroscience & Behaviour at McMaster University with Laurel Trainor, and my postdoctoral training at New York University with David Poeppel.
 
-I am an auditory and computational cognitive neuroscientist by training. My research asks how the human brain makes sense of sound — how we hear speech, music, and the acoustic world, and how the brain and body stay coordinated during social interaction. Crucially, my research shows that time has been the center of all these mental and behavioral phenomena. I approach these questions by combining behavioral experiments, neural recordings, signal processing, machine learning, and computational modeling.
+I am an auditory and computational cognitive neuroscientist by training. My research asks how the human brain makes sense of sound — how we hear speech, music, and the acoustic world, and how the brain and body stay coordinated during social interaction. Crucially, my research shows that time has been the center of all these mental and behavioral phenomena. During my postdoc, I expanded my research toward understanding the computational implementations of human audition and their neural/machine representations. I approach these questions by combining behavioral experiments, neural recordings, signal processing, machine learning, and computational modeling.
+
+Currently, I am acting as an applied cognitive scientist, machine learning engineer, and quant research methodologist at Google for work that I am not allowed to share. ;)
 
 My work has been recognized by the National Institutes of Health, the New York Academy of Sciences, the Governor General of Canada, the Natural Sciences and Engineering Research Council of Canada, the GRAMMY Foundation, and the Cognitive Neuroscience Society, and has been featured in Scientific American, where I also write.
 
@@ -31,7 +33,7 @@ Beyond, I am a humbly okay classical violinist/violist, an over-enthusiastic jaz
 <ul class="cv">
   <li><span class="date">2025–</span><span><strong>Senior Quantitative UX Researcher, Search Ads (SAGE)</strong>, Google</span></li>
   <li><span class="date">2020–25</span><span><strong>Postdoctoral Researcher, Psychology</strong>, New York University</span></li>
-  <li><span class="date">2014–19</span><span><strong>PhD, Psychology, Neuroscience &amp; Behaviour</strong>, McMaster University</span></li>
+  <li><span class="date">2014–19</span><span><strong>PhD, Psychology</strong>, McMaster University</span></li>
   <li><span class="date">2008–13</span><span><strong>BS, Psychology</strong>, National Taiwan University</span></li>
 </ul>
 </section>
