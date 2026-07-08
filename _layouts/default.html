@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author.name }}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:type" content="profile">
+  <meta property="og:image" content="{{ site.author.photo | absolute_url }}">
+  <meta property="og:url" content="{{ site.url }}">
+
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎵</text></svg>">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <main class="wrap">
+
+    <header class="masthead">
+      <img src="{{ site.author.photo | relative_url }}" alt="{{ site.author.name }}">
+      <div>
+        <h1>{{ site.author.name }}</h1>
+        <p class="role">{{ site.tagline }}</p>
+        <p class="affil">Research Affiliate, New York University · Google</p>
+      </div>
+    </header>
+
+    <nav class="links">
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="{{ site.author.scholar }}">Google Scholar</a>
+      <a href="https://orcid.org/{{ site.author.orcid }}">ORCID</a>
+      <a href="{{ site.author.github }}">GitHub</a>
+      <a href="{{ site.author.linkedin }}">LinkedIn</a>
+      <a href="{{ site.author.twitter }}">Twitter</a>
+      {% if site.author.cv %}<a href="{{ site.author.cv }}">CV</a>{% endif %}
+    </nav>
+
+    {{ content }}
+
+    {% if site.data.publications %}
+    <section id="publications">
+      <h2>Publications</h2>
+
+      {% if site.data.publications.journal %}
+      <div class="pub-group">
+        <h3>Journal Articles</h3>
+        {% for p in site.data.publications.journal %}
+        <p class="pub">
+          <span class="authors">{{ p.authors | replace: "Chang, A.", '<span class="me">Chang, A.</span>' }}</span>
+          ({{ p.year }}).
+          {% if p.doi %}<a class="title" href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% else %}<span class="title">{{ p.title }}</span>{% endif %}.
+          <span class="venue">{{ p.venue }}</span>{% if p.volume %}, {{ p.volume }}{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}.
+        </p>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if site.data.publications.conference %}
+      <div class="pub-group">
+        <h3>Conference Proceedings</h3>
+        {% for p in site.data.publications.conference %}
+        <p class="pub">
+          <span class="authors">{{ p.authors | replace: "Chang, A.", '<span class="me">Chang, A.</span>' }}</span>
+          ({{ p.year }}).
+          {% if p.doi %}<a class="title" href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% else %}<span class="title">{{ p.title }}</span>{% endif %}.
+          <span class="venue">{{ p.venue }}</span>{% if p.pages %}, {{ p.pages }}{% endif %}.
+        </p>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}
+
+    <footer>
+      <span>© {{ site.time | date: "%Y" }} {{ site.author.name }}</span>
+      <span>Built with Jekyll · <a href="{{ site.author.github }}">source</a></span>
+    </footer>
+
+  </main>
+</body>
+</html>

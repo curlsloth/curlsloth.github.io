@@ -1,0 +1,180 @@
+# =============================================================================
+#  Publications
+#  To add a paper: copy a block, fill it in, keep the list newest-first.
+#  Write your own name exactly as "Chang, A." and it will be bolded on the page.
+#  `doi` is optional; if present it becomes the paper's link.
+# =============================================================================
+
+journal:
+  - title: "Temporally dissociable neural representations of pitch height and chroma"
+    authors: "Chang, A.; Poeppel, D.; Teng, X."
+    venue: "Journal of Neuroscience"
+    year: 2025
+    volume: "45"
+    pages: "e1567242024"
+    doi: "10.1523/JNEUROSCI.1567-24.2024"
+
+  - title: "The human auditory system uses amplitude modulation to distinguish music from speech"
+    authors: "Chang, A.; Teng, X.; Assaneo, M. F.; Poeppel, D."
+    venue: "PLOS Biology"
+    year: 2024
+    volume: "22"
+    pages: "e3002631"
+    doi: "10.1371/journal.pbio.3002631"
+
+  - title: "Auditory rhythm facilitates perception and action in children at risk for developmental coordination disorder"
+    authors: "Carrillo, C.; Chang, A.; Armstrong, H.; Cairney, J.; McAuley, J. D.; Trainor, L. J."
+    venue: "Scientific Reports"
+    year: 2024
+    volume: "14"
+    pages: "12501"
+    doi: "10.1038/s41598-024-62322-6"
+
+  - title: "“Taste typicality” is a foundational and multi-modal dimension of ordinary aesthetic experience"
+    authors: "Chen, Y.-C.; Chang, A.; Rosenberg, M. D.; Feng, D.; Scholl, B. J.; Trainor, L. J."
+    venue: "Current Biology"
+    year: 2022
+    volume: "32"
+    pages: "1837–1842"
+    doi: "10.1016/j.cub.2022.02.039"
+
+  - title: "Creating a shared musical interpretation: Changes in coordination dynamics while learning unfamiliar music together"
+    authors: "Wood, E. A.; Chang, A.; Bosnyak, D.; Klein, L.; Baraku, E.; Dotov, D.; Trainor, L. J."
+    venue: "Annals of the New York Academy of Sciences"
+    year: 2022
+    volume: "1516"
+    pages: "106–113"
+    doi: "10.1111/nyas.14858"
+
+  - title: "Inferior auditory time perception in children with motor difficulties"
+    authors: "Chang, A.; Li, Y.-C.; Chan, J. F.; Dotov, D. G.; Cairney, J.; Trainor, L. J."
+    venue: "Child Development"
+    year: 2021
+    volume: "92"
+    pages: "e907–e923"
+    doi: "10.1111/cdev.13537"
+
+  - title: "Body sway predicts romantic interest in speed dating"
+    authors: "Chang, A.; Kragness, H. E.; Tsou, W.; Bosnyak, D. J.; Thiede, A.; Trainor, L. J."
+    venue: "Social Cognitive and Affective Neuroscience"
+    year: 2021
+    volume: "16"
+    pages: "185–192"
+    doi: "10.1093/scan/nsaa093"
+
+  - title: "Atypical beta power fluctuation while listening to an isochronous sequence in dyslexia"
+    authors: "Chang, A.; Bedoin, N.; Canette, L.-H.; Nozaradan, S.; Thompson, D.; Corneyllie, A.; Tillmann, B.; Trainor, L. J."
+    venue: "Clinical Neurophysiology"
+    year: 2021
+    volume: "132"
+    pages: "2384–2390"
+    doi: "10.1016/j.clinph.2021.05.037"
+
+  - title: "Rhythmicity facilitates pitch discrimination: Differential roles of low and high frequency neural oscillations"
+    authors: "Chang, A.; Bosnyak, D. J.; Trainor, L. J."
+    venue: "NeuroImage"
+    year: 2019
+    volume: "198"
+    pages: "31–43"
+    doi: "10.1016/j.neuroimage.2019.05.007"
+
+  - title: "Body sway reflects joint emotional expression in music ensemble performance"
+    authors: "Chang, A.; Kragness, H. E.; Livingstone, S. R.; Bosnyak, D. J.; Trainor, L. J."
+    venue: "Scientific Reports"
+    year: 2019
+    volume: "9"
+    pages: "205"
+    doi: "10.1038/s41598-018-36358-4"
+
+  - title: "Is auditory perceptual timing a core deficit of developmental coordination disorder?"
+    authors: "Trainor, L. J.; Chang, A.; Cairney, J.; Li, Y."
+    venue: "Annals of the New York Academy of Sciences"
+    year: 2018
+    volume: "1423"
+    pages: "30–39"
+    doi: "10.1111/nyas.13701"
+
+  - title: "Beta oscillatory power modulation reflects the predictability of pitch change"
+    authors: "Chang, A.; Bosnyak, D. J.; Trainor, L. J."
+    venue: "Cortex"
+    year: 2018
+    volume: "106"
+    pages: "248–260"
+    doi: "10.1016/j.cortex.2018.06.008"
+
+  - title: "Proactive control: Neural oscillatory correlates of conflict anticipation and response slowing"
+    authors: "Chang, A.; Ide, J. S.; Li, H.-H.; Chen, C.-C.; Li, C.-S. R."
+    venue: "eNeuro"
+    year: 2017
+    volume: "4"
+    pages: "ENEURO.0061-17.2017"
+    doi: "10.1523/ENEURO.0061-17.2017"
+
+  - title: "Body sway reflects leadership in joint music performance"
+    authors: "Chang, A.; Livingstone, S. R.; Bosnyak, D. J.; Trainor, L. J."
+    venue: "Proceedings of the National Academy of Sciences"
+    year: 2017
+    volume: "114"
+    pages: "E4134–E4141"
+    doi: "10.1073/pnas.1617657114"
+
+  - title: "Unpredicted pitch modulates beta oscillatory power during rhythmic entrainment to a tone sequence"
+    authors: "Chang, A.; Bosnyak, D. J.; Trainor, L. J."
+    venue: "Frontiers in Psychology"
+    year: 2016
+    volume: "7"
+    pages: "327"
+    doi: "10.3389/fpsyg.2016.00327"
+
+  - title: "“Get up, stand up, stand up for your rights!” The Jamaicanization of youth across 11 countries through reggae music?"
+    authors: "Ferguson, G. M.; Boer, D.; Fischer, R.; … Chang, A.; … et al."
+    venue: "Journal of Cross-Cultural Psychology"
+    year: 2016
+    volume: "47"
+    pages: "581–604"
+    doi: "10.1177/0022022116632910"
+
+  - title: "Perigenual anterior cingulate event-related potential precedes stop signal errors"
+    authors: "Chang, A.; Chen, C.-C.; Li, H.-H.; Li, C.-S. R."
+    venue: "NeuroImage"
+    year: 2015
+    volume: "111"
+    pages: "179–185"
+    doi: "10.1016/j.neuroimage.2015.02.017"
+
+  - title: "Event-related potentials for post-error and post-conflict slowing"
+    authors: "Chang, A.; Chen, C.-C.; Li, H.-H.; Li, C.-S. R."
+    venue: "PLOS ONE"
+    year: 2014
+    volume: "9"
+    pages: "e99909"
+    doi: "10.1371/journal.pone.0099909"
+
+conference:
+  - title: "Spectrotemporal modulation: Efficient and interpretable feature representation for classifying speech, music, and environmental sounds"
+    authors: "Chang, A.; Li, Y.; Roman, I. R.; Poeppel, D."
+    venue: "Interspeech 2025"
+    year: 2025
+    pages: "216–220"
+    doi: "10.21437/Interspeech.2025-1021"
+
+  - title: "Multimodal machine learning can predict videoconference fluidity and enjoyment"
+    authors: "Chang, A.; Akkaraju, V.; Cogliano, R. M.; Poeppel, D.; Freeman, D."
+    venue: "ICASSP 2025 (IEEE)"
+    year: 2025
+    pages: "1–5"
+    doi: "10.1109/ICASSP49660.2025.10889480"
+
+  - title: "Multimodal fusion with semi-supervised learning minimizes annotation quantity for modeling videoconference conversation experience"
+    authors: "Chang, A.; Hu, C.; Qi, J.; Wei, Z.; Zhang, K.; Akkaraju, V.; Poeppel, D.; Freeman, D."
+    venue: "Interspeech 2025"
+    year: 2025
+    pages: "4313–4317"
+    doi: "10.21437/Interspeech.2025-2451"
+
+  - title: "Multi-domain feature selection in auditory mismatch negativity via PARAFAC-based template matching"
+    authors: "Pouryazdian, S.; Chang, A.; Bosnyak, D. J.; Trainor, L. J.; Beheshti, S.; Krishnan, S."
+    venue: "IEEE EMBC 2016"
+    year: 2016
+    pages: "1603–1607"
+    doi: "10.1109/EMBC.2016.7591019"
