@@ -7,14 +7,6 @@
 # =============================================================================
 
 publications:
-  - title: "Temporally dissociable neural representations of pitch height and chroma"
-    authors: "Chang, A.; Poeppel, D.; Teng, X."
-    venue: "Journal of Neuroscience"
-    year: 2025
-    volume: "45"
-    pages: "e1567242024"
-    doi: "10.1523/JNEUROSCI.1567-24.2024"
-
   - title: "Spectrotemporal modulation: Efficient and interpretable feature representation for classifying speech, music, and environmental sounds"
     authors: "Chang, A.; Li, Y.; Roman, I. R.; Poeppel, D."
     venue: "Interspeech 2025"
@@ -35,6 +27,14 @@ publications:
     year: 2025
     pages: "1–5"
     doi: "10.1109/ICASSP49660.2025.10889480"
+
+  - title: "Temporally dissociable neural representations of pitch height and chroma"
+    authors: "Chang, A.; Poeppel, D.; Teng, X."
+    venue: "Journal of Neuroscience"
+    year: 2025
+    volume: "45"
+    pages: "e1567242024"
+    doi: "10.1523/JNEUROSCI.1567-24.2024"
 
   - title: "The human auditory system uses amplitude modulation to distinguish music from speech"
     authors: "Chang, A.; Teng, X.; Assaneo, M. F.; Poeppel, D."
