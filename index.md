@@ -6,9 +6,9 @@ title: Andrew Chang
 <section id="about" markdown="1">
 ## About
 
-I am currently a Senior Quantitative User Experience Researcher at Google. In practice, I act as an applied cognitive scientist, computational linguist, machine learning engineer, and quant research methodologist at Google for work that I am not allowed to share. ;)
+I am currently a Senior Quantitative User Experience Researcher on the Search Ads team at Google. In practice, I act as an applied cognitive scientist, computational linguist, machine learning engineer, and quant research methodologist at Google for work that I am not allowed to share. ;)
 
-By training, I am an auditory and computational cognitive neuroscientist (PhD at McMaster with Laurel Trainor, postdoc at NYU with David Poeppel). Fundamentally, my research asks how the brain decodes the acoustic world—how we hear speech and music, and how our bodies synchronize during social interaction. Also, I have dragged this focus into the algorithmic realm, digging into the computational implementations of human audition and their neural/machine representations. The one continuous, slightly obsessive theme tying my work together is that time is the core infrastructure of these phenomena, from prediction to production. I am a methodological pluralist. I combine behavioral experiments, neural recordings, signal processing, machine learning, and computational modeling just to see what is the appropriate. My work has been recognized by National Institutes of Health, New York Academy of Sciences, Governor General of Canada, Natural Sciences and Engineering Research Council of Canada, GRAMMY Foundation, and Cognitive Neuroscience Society, and has been featured in Scientific American.
+By training, I am an auditory and computational cognitive neuroscientist (PhD at McMaster with Laurel Trainor, postdoc at NYU with David Poeppel). Fundamentally, my research asks how the brain decodes the acoustic world—how we hear speech and music, and how our bodies synchronize during social interaction. Also, I have dragged this focus into the algorithmic realm, digging into the computational implementations of human audition and their neural/machine representations. The one continuous, slightly obsessive theme tying my work together is that time is the core infrastructure of these phenomena, from prediction to production. I am a methodological pluralist: combining and improvising behavioral experiments, neural recordings, signal processing, machine learning, and computational modeling, depending on the appropriateness. My work has been recognized by National Institutes of Health, New York Academy of Sciences, Governor General of Canada, Natural Sciences and Engineering Research Council of Canada, GRAMMY Foundation, and Cognitive Neuroscience Society, and has been featured in Scientific American.
 
 Beyond, I am a humbly okay classical violinist/violist, an over-enthusiastic jazz learner, a terrible squash player, an improving-maybe husband, and a definetly goofy daddy of one (soon to be two).
 
@@ -27,9 +27,9 @@ Beyond, I am a humbly okay classical violinist/violist, an over-enthusiastic jaz
 ## Experiences
 
 <ul class="cv">
-  <li><span class="date">2025–</span><span><strong>Senior Quantitative UX Researcher, Search Ads</strong>, Google</span></li>
-  <li><span class="date">2020–25</span><span><strong>Postdoctoral Researcher, Psychology</strong>, New York University</span></li>
-  <li><span class="date">2014–19</span><span><strong>PhD, Psychology</strong>, McMaster University</span></li>
-  <li><span class="date">2008–13</span><span><strong>BS, Psychology</strong>, National Taiwan University</span></li>
+  <li><span class="date">2025–</span><span><strong>Senior Quantitative UX Researcher</strong>, Google</span></li>
+  <li><span class="date">2020–25</span><span><strong>Postdoctoral Researcher</strong>, New York University</span></li>
+  <li><span class="date">2014–19</span><span><strong>PhD in Psychology</strong>, McMaster University</span></li>
+  <li><span class="date">2008–13</span><span><strong>BS in Psychology</strong>, National Taiwan University</span></li>
 </ul>
 </section>
