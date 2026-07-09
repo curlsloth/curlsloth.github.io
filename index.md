@@ -19,7 +19,7 @@ Beyond, I am a humbly okay classical violinist/violist, an over-enthusiastic jaz
 
 - **sound & brain** — the acoustic, perceptual, and neural features that tell speech and music apart, and what that (dis)similarity means for people with communication disorders. Also how the brain tracks rhythm, pitch, and temporal structure to predict what comes next.
 - **interpersonal interaction** — how body motion reveals leadership, emotion, and connection during multipersonal joint music performance, conversation, videoconferencing, and dating <3.
-- **machine learning/ai** — multimodal/interpretable machine learning in the audio domain, with neuroscientific and cognitive inspirations (if possible).
+- **ml/ai** — multimodal/interpretable machine learning in the audio domain, with neuroscientific and cognitive inspirations (if possible).
 - **research methods** — exploring freely to find the mathematically sound and just-slightly-more-than-enough approach to serve the research need.
 </section>
 
