@@ -6,13 +6,9 @@ title: Andrew Chang
 <section id="about" markdown="1">
 ## About
 
-I am a Senior Quantitative User Experience Researcher at Google. I completed my PhD in Psychology, Neuroscience & Behaviour at McMaster University with Laurel Trainor, and my postdoctoral training at New York University with David Poeppel.
+I am currently a Senior Quantitative User Experience Researcher at Google. In practice, I act as an applied cognitive scientist, computational linguist, machine learning engineer, and quant research methodologist at Google for work that I am not allowed to share. ;)
 
-I am an auditory and computational cognitive neuroscientist by training. My research asks how the human brain makes sense of sound — how we hear speech, music, and the acoustic world, and how the brain and body stay coordinated during social interaction. Crucially, my research shows that time has been the center of all these mental and behavioral phenomena. During my postdoc, I expanded my research toward understanding the computational implementations of human audition and their neural/machine representations. I approach these questions by combining behavioral experiments, neural recordings, signal processing, machine learning, and computational modeling.
-
-Currently, I am acting as an applied cognitive scientist, machine learning engineer, and quant research methodologist at Google for work that I am not allowed to share. ;)
-
-My work has been recognized by National Institutes of Health, New York Academy of Sciences, Governor General of Canada, Natural Sciences and Engineering Research Council of Canada, GRAMMY Foundation, and Cognitive Neuroscience Society, and has been featured in Scientific American.
+By training, I am an auditory and computational cognitive neuroscientist (PhD at McMaster with Laurel Trainor, postdoc at NYU with David Poeppel). Fundamentally, my research asks how the brain decodes the acoustic world—how we hear speech and music, and how our bodies synchronize during social interaction. Also, I have dragged this focus into the algorithmic realm, digging into the computational implementations of human audition and their neural/machine representations. The one continuous, slightly obsessive theme tying my work together is that time is the core infrastructure of these phenomena, from prediction to production. I am a methodological pluralist. I combine behavioral experiments, neural recordings, signal processing, machine learning, and computational modeling just to see what is the appropriate. My work has been recognized by National Institutes of Health, New York Academy of Sciences, Governor General of Canada, Natural Sciences and Engineering Research Council of Canada, GRAMMY Foundation, and Cognitive Neuroscience Society, and has been featured in Scientific American.
 
 Beyond, I am a humbly okay classical violinist/violist, an over-enthusiastic jazz learner, a terrible squash player, an improving-maybe husband, and a definetly goofy daddy of one (soon to be two).
 
