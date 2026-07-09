@@ -7,6 +7,14 @@
 # =============================================================================
 
 publications:
+
+  - title: "VIP-MINGLE: A Corpus for Videoconference and In-Person Multimodal Interaction in Group Language Engagement. Interspeech"
+    authors: "Chang, A.; Bodi, A.K.; Deng, W.; Huang, J.; Kadamba, V.G.; Karanam, S.B.H.; Kennady, D.A., Poeppel, D.; Freeman, D."
+    venue: "Interspeech 2026"
+    year: 2026
+    pages: ""
+    doi: ""
+
   - title: "Spectrotemporal modulation: Efficient and interpretable feature representation for classifying speech, music, and environmental sounds"
     authors: "Chang, A.; Li, Y.; Roman, I. R.; Poeppel, D."
     venue: "Interspeech 2025"
