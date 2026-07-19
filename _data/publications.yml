@@ -12,8 +12,8 @@ publications:
     authors: "Chang, A.; Bodi, A.K.; Deng, W.; Huang, J.; Kadamba, V.G.; Karanam, S.B.H.; Kennady, D.A., Poeppel, D.; Freeman, D."
     venue: "Interspeech 2026"
     year: 2026
-    pages: "(in press)"
-    doi: ""
+    pages: "(preprint)"
+    doi: "10.48550/arXiv.2607.13614"
 
   - title: "Spectrotemporal modulation: Efficient and interpretable feature representation for classifying speech, music, and environmental sounds"
     authors: "Chang, A.; Li, Y.; Roman, I. R.; Poeppel, D."
