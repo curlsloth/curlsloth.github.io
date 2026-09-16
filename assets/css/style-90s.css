@@ -126,9 +126,14 @@ ol.pubs li { margin: 0 0 0.6rem; line-height: 1.4; }
 .pub .title { font-weight: 400; }
 .pub .venue { font-style: italic; }
 .pub .me { font-weight: 700; text-decoration: none; }
-.pub .dataset { font-size: 0.85em; }
-.pub .dataset::before { content: "["; }
-.pub .dataset::after  { content: "]"; }
+.pub-extra {
+  list-style: none;
+  margin: 0.15rem 0 0;
+  padding-left: 0.8rem;
+  font-size: 0.9em;
+}
+.pub-extra li { margin: 0; }
+.pub-extra li::before { content: "\2014\00a0"; }
 
 /* ---------- Blog / thoughts list ---------------------------------------- */
 .postlist { list-style: none; padding: 0; margin: 0; }

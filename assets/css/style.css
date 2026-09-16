@@ -122,16 +122,15 @@ ol.pubs li::marker { color: var(--muted); }
 .pub .title { font-weight: 600; }
 .pub .venue { font-style: italic; }
 .pub .me { text-decoration: underline; text-underline-offset: 2px; }
-.pub .dataset {
-  font-size: 0.85em;
-  text-decoration: none;
-  border: 1px solid var(--rule);
-  border-radius: 3px;
-  padding: 0 0.35em;
-  white-space: nowrap;
+.pub-extra {
+  list-style: none;
+  margin: 0.25rem 0 0;
+  padding-left: 0.6rem;
+  font-size: 0.9em;
+  color: var(--muted);
 }
-.pub .dataset::before { content: "\2193\00a0"; }
-.pub .dataset:hover { border-color: var(--link-hi); }
+.pub-extra li { margin: 0; line-height: 1.5; }
+.pub-extra li::before { content: "\2014\00a0"; color: var(--muted); }
 
 /* ---------- Blog / thoughts list ---------------------------------------- */
 .postlist { list-style: none; padding: 0; margin: 0; }
