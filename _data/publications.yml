@@ -3,7 +3,8 @@
 #  To add a paper: copy a block, fill it in, and place it in the right spot by
 #  year (newest at the top). Write your own name exactly as "Chang, A." and it
 #  will be bolded on the page. `volume` and `doi` are optional; if a `doi` is
-#  present it becomes the paper's link.
+#  present it becomes the paper's link. Add `dataset_doi` for an accompanying
+#  dataset; it renders as a trailing "Dataset" link.
 # =============================================================================
 
 publications:
@@ -14,6 +15,7 @@ publications:
     year: 2026
     pages: "(preprint)"
     doi: "10.48550/arXiv.2607.13614"
+    dataset_doi: "10.5064/F6W4L3TA"
 
   - title: "Spectrotemporal modulation: Efficient and interpretable feature representation for classifying speech, music, and environmental sounds"
     authors: "Chang, A.; Li, Y.; Roman, I. R.; Poeppel, D."

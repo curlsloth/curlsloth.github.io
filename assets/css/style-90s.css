@@ -126,6 +126,9 @@ ol.pubs li { margin: 0 0 0.6rem; line-height: 1.4; }
 .pub .title { font-weight: 400; }
 .pub .venue { font-style: italic; }
 .pub .me { font-weight: 700; text-decoration: none; }
+.pub .dataset { font-size: 0.85em; }
+.pub .dataset::before { content: "["; }
+.pub .dataset::after  { content: "]"; }
 
 /* ---------- Blog / thoughts list ---------------------------------------- */
 .postlist { list-style: none; padding: 0; margin: 0; }

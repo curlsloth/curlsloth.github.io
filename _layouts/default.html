@@ -56,7 +56,8 @@
           <span class="authors">{{ p.authors | replace: "Chang, A.", '<span class="me">Chang, A.</span>' }}</span>
           ({{ p.year }}).
           {% if p.doi %}<a class="title" href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% else %}<span class="title">{{ p.title }}</span>{% endif %}.
-          <span class="venue">{{ p.venue }}</span>{% if p.volume %}, {{ p.volume }}{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}.
+          <span class="venue">{{ p.venue }}</span>{% if p.volume %}, {{ p.volume }}{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}.{% if p.dataset_doi %}
+          <a class="dataset" href="https://doi.org/{{ p.dataset_doi }}">Dataset</a>{% endif %}
         </li>
         {% endfor %}
       </ol>
