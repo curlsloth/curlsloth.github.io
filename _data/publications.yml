@@ -4,7 +4,8 @@
 #  year (newest at the top). Write your own name exactly as "Chang, A." and it
 #  will be bolded on the page. `volume` and `doi` are optional; if a `doi` is
 #  present it becomes the paper's link. Add `dataset_doi` for an accompanying
-#  dataset; it renders as a trailing "Dataset" link.
+#  dataset; it renders as a trailing "Dataset" link. Add `preprint_doi` (an
+#  arXiv DOI) for a conference paper; it renders as a trailing "[preprint]".
 # =============================================================================
 
 publications:
@@ -15,6 +16,7 @@ publications:
     year: 2026
     pages: "1954–1958"
     doi: "10.21437/Interspeech.2026-2367"
+    preprint_doi: "10.48550/arXiv.2607.13614"
     dataset_doi: "10.5064/F6W4L3TA"
 
   - title: "Spectrotemporal modulation: Efficient and interpretable feature representation for classifying speech, music, and environmental sounds"
@@ -23,6 +25,7 @@ publications:
     year: 2025
     pages: "216–220"
     doi: "10.21437/Interspeech.2025-1021"
+    preprint_doi: "10.48550/arXiv.2505.23509"
 
   - title: "Multimodal fusion with semi-supervised learning minimizes annotation quantity for modeling videoconference conversation experience"
     authors: "Chang, A.; Hu, C.; Qi, J.; Wei, Z.; Zhang, K.; Akkaraju, V.; Poeppel, D.; Freeman, D."
@@ -30,6 +33,7 @@ publications:
     year: 2025
     pages: "4313–4317"
     doi: "10.21437/Interspeech.2025-2451"
+    preprint_doi: "10.48550/arXiv.2506.13971"
 
   - title: "Multimodal machine learning can predict videoconference fluidity and enjoyment"
     authors: "Chang, A.; Akkaraju, V.; Cogliano, R. M.; Poeppel, D.; Freeman, D."
@@ -37,6 +41,7 @@ publications:
     year: 2025
     pages: "1–5"
     doi: "10.1109/ICASSP49660.2025.10889480"
+    preprint_doi: "10.48550/arXiv.2501.03190"
 
   - title: "Temporally dissociable neural representations of pitch height and chroma"
     authors: "Chang, A.; Poeppel, D.; Teng, X."
