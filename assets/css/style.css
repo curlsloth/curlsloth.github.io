@@ -123,6 +123,7 @@ ol.pubs li::marker { color: var(--muted); }
 .pub .venue { font-style: italic; }
 .pub .me { text-decoration: underline; text-underline-offset: 2px; }
 .pub .preprint { font-size: 0.9em; white-space: nowrap; }
+.pub .oral { font-size: 0.9em; white-space: nowrap; }
 .pub .preprint:hover { color: var(--link-hi); }
 .pub-extra {
   list-style: none;

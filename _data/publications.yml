@@ -6,6 +6,7 @@
 #  present it becomes the paper's link. Add `dataset_doi` for an accompanying
 #  dataset; it renders as a trailing "Dataset" link. Add `preprint_doi` (an
 #  arXiv DOI) for a conference paper; it renders as a trailing "[preprint]".
+#  Add `oral: true` for an oral presentation; it renders as "[oral]".
 # =============================================================================
 
 publications:
@@ -16,6 +17,7 @@ publications:
     year: 2026
     pages: "1954–1958"
     doi: "10.21437/Interspeech.2026-2367"
+    oral: true
     preprint_doi: "10.48550/arXiv.2607.13614"
     dataset_doi: "10.5064/F6W4L3TA"
 
@@ -41,6 +43,7 @@ publications:
     year: 2025
     pages: "1–5"
     doi: "10.1109/ICASSP49660.2025.10889480"
+    oral: true
     preprint_doi: "10.48550/arXiv.2501.03190"
 
   - title: "Temporally dissociable neural representations of pitch height and chroma"

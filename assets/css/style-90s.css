@@ -127,6 +127,7 @@ ol.pubs li { margin: 0 0 0.6rem; line-height: 1.4; }
 .pub .venue { font-style: italic; }
 .pub .me { font-weight: 700; text-decoration: none; }
 .pub .preprint { font-size: 0.9em; white-space: nowrap; }
+.pub .oral { font-size: 0.9em; white-space: nowrap; }
 .pub-extra {
   list-style: none;
   margin: 0.15rem 0 0;
